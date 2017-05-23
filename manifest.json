@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Clck Links Shortener",
+  "description": "This extension allows for shortening links via clck.ru",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://clck.ru/"
+  ]
+}
